@@ -1,0 +1,139 @@
+/*########## DEFAULTS ################*/
+nav,
+header,
+footer {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	margin: 0;
+
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+
+/*########## NAV BAR ################*/
+
+nav {
+	width: 100;
+	margin: 0;
+}
+
+nav ul {
+	background-color: #eee;
+	overflow: hidden;
+	/*!cuts out unessarry harizontal content!*/
+	margin: 0;
+	padding: 0;
+
+}
+
+ul.sticky li {
+	list-style: none;
+	float: left;
+}
+
+ul.sticky .sticky-right {
+	float: right;
+
+}
+
+footer,
+ul.sticky li a {
+	display: block;
+	text-decoration: none;
+	min-height: 16px;
+	text-align: center;
+	padding: 20px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+footer,
+ul.sticky li a:hover {
+	background-color: red;
+	color: blue;
+
+}
+
+ul.sticky li.dropdownIcon {
+	display: none;
+}
+
+/* ####### custom style ######### */
+
+header {
+	background-color: rgba(233, 233, 233, 0.979);
+	font-size: 38px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: center;
+	margin-top: auto;
+}
+
+div,
+li {
+	text-align: center;
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
+
+
+}
+
+footer {
+	background-color: #666;
+	text-align: center;
+	line-height: 50px;
+	padding: 50px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* ############## MOBILE ################################## */
+
+@media screen and (max-width: 680px) {
+	ul.sticky li:not(:nth-child(1)) {
+		display: none;
+	}
+
+	ul.sticky li.dropdownIcon {
+		display: block;
+		float: right;
+	}
+
+	ul.sticky.responsive li.dropdownIcon {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	ul.sticky.responsive {
+
+		position: relative;
+	}
+
+	ul.sticky.responsive li {
+		display: inline;
+		float: none;
+	}
+
+	ul.sticky.responsive li a {
+		display: block;
+		text-align: left;
+
+	}
+}

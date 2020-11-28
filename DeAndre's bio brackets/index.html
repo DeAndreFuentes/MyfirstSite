@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bio Site DeAndre</title>
+	<link rel="stylesheet" href="Style.css">
+	<style>
+		img {
+			border-radius: 50%;
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul class="sticky" id="dropDownnav">
+
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#Bio">Bio</a></li>
+			<li><a href="#Mission Statement">Mission Statement</a></li>
+			<li class="sticky-right"> <a href="#Services">Services</a></li>
+			<li class="sticky-right"> <a href="#Contact Us">Contact Us</a></li>
+			<li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+		</ul>
+	</nav>
+
+
+	<header>
+
+
+		<img src="196e966.jpg" height="100" width="100">
+
+		<p>DeAndre's Bio</p>
+
+
+	</header>
+
+
+	<div>
+
+		<h1>Experience Web Managment</h1>
+
+
+		<p>
+		<h4> Controlled Managment System </h4>
+		<ul>
+			<li> WordPress </li>
+			<li>Joomla</li>
+			<li>Drupal</li>
+			<li>Shopify</li>
+
+		</ul>
+		<H1> This Site is Mobile Responsive </H1>
+		</p>
+	</div>
+	<footer>
+		<a href="#Home">Home</a>
+		<a href="#Bio">Bio</a>
+		<a href="#Mission Statement">Mission Statement</a>
+		<a href="#Services">Services</a>
+		<a href="#Contact Us">Contact Us</a>
+	</footer>
+	<script>
+		function dropdownMenu() {
+			var x = document.getElementById("dropDownnav");
+			if (x.className === "sticky") {
+				x.className += " responsive";
+				/*change sticky to sticky.responsive*/
+			} else {
+				x.className = "sticky";
+			}
+		}
+	</script>
+</body>
+
+</html>
