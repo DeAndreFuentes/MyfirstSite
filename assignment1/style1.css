@@ -1,0 +1,147 @@
+.img {
+width: 1350px;
+height: 300px;
+background-image: url(images/header1.gif);
+background-size: 100%;
+
+
+}
+
+
+  
+  
+.img-me {
+width: auto;
+position: absolute;
+top: 0;
+left: 0;
+margin-top: 50px;
+
+}
+
+.backgroundimage{
+    width: 100%;
+    height: 95%;
+    background-image: url(images/body1.gif);
+    background-size: 100%;
+    position: absolute;
+    margin-top: 50%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        
+  }
+
+  .welcome{
+      
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -12.5%;
+
+  }
+
+
+  
+  .bio{
+      
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 80%;
+  }
+
+
+  .drupal {
+    width: auto;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 0%;
+    
+    }
+
+    .wordpress {
+        width: auto;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 0%;
+        
+        }
+
+        .joomla {
+            
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 0%;
+    
+    
+            
+            }
+
+
+
+  div.polaroiddrupal {
+    width: 19%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10%;
+    margin-left: 10%;
+    position: absolute;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  div.polaroidwordpress {
+    width: 19%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10%;
+    margin-left: 40%;
+    position: absolute;
+
+
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  div.polaroidjoomla {
+    width: 19%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 10%;
+    margin-left: 70%;
+position: absolute;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+
+
+  .footer{
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 100%;
+}
+  
+  #helpme{
+      
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 120%;
+    
+  
+}
+
